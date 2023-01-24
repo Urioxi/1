@@ -6,9 +6,7 @@ namespace HelloWorld
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Quel est votre pseudo ?");
-      string pseudo = Console.Readline();
-      Console.WriteLine("Bonjour {0}", pseudo);
+      Console.WriteLine("Hello World!");    
     }
   }
 }
